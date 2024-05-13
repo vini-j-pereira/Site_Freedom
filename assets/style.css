@@ -31,7 +31,7 @@ body{
 }
 
 .br-nav{
-    background-color: #18181865;
+    background-color: #18181831;
 }
 
 .br-nav nav{
@@ -93,7 +93,15 @@ margin-top: 30px;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
+    background-color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.txt-tbn button:hover{
     background-color: #ff4545;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #ff4545; 
 }
 
 .img-main img{
@@ -101,4 +109,79 @@ margin-top: 30px;
     border-radius: 20px;
     border-style: dashed;
     opacity: .6;
+}
+
+.agenda{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.agenda h2{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+.container-box{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.container-box img{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: .5s;
+    outline: none;
+}
+
+.container-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(222, 221, 221, 0.552) ;
+}
+
+section.local{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.localizar{
+    color: #fff;
+}
+
+.localizar h2{
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.localizar img{
+    border-radius: 10px;
+}
+
+.fale-conosco{
+    color: #fff;
+    gap: 10px;
+}
+
+.fale-conosco h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+footer .foot{
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181831;
 }
