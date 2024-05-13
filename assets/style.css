@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Teachers", sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.br-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.txt-logo{
+    padding-left: 4%;
+}
+
+.txt-logo p{
+    color: #fff;
+    font-size: 30px;  
+}
+
+.txt-logo p span{
+    color: #ff4545;
+}
+
+.br-nav{
+    background-color: #18181865;
+}
+
+.br-nav nav{
+    padding-right: 4%;
+}
+
+.br-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.br-nav nav ul li{
+    list-style: none;
+    
+}
+
+.br-nav nav ul li a{
+    color: #929292;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.br-nav nav ul li a:hover{
+    color: #fff;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    
+}
+
+.container-main{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 30px;
+}
+
+.container-main h1{
+    color: #ffffff;
+    font-size: 45px;
+    outline: none;
+    font-style: italic;
+    padding: 18px;
+}
+
+.txt-tbn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-tbn button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff4545;
+}
+
+.img-main img{
+    height: 400px;
+    border-radius: 20px;
+    border-style: dashed;
+    opacity: .6;
+}
