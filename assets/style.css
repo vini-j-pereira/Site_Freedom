@@ -5,6 +5,10 @@
     font-family: "Teachers", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #000;
 }
