@@ -11,6 +11,7 @@ html{
 
 body{
     background-color: #000;
+    overflow-x: hidden;
 }
 
 .br-nav{
@@ -99,8 +100,8 @@ justify-content: space-around;
     color: #fff;
     border: none;
     padding: 4px 6px;
+    margin-top: 5px;
     border-radius: 5px;
-    margin-top: 10px;
     font-size: 16px;
     font-weight: bold;
     display: flex;
@@ -184,9 +185,9 @@ justify-content: space-around;
 }
 
 .container-box img{
-    width: 400px;
+    width: 350px;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 30px;
     transition: .5s;
     outline: none;
